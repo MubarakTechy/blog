@@ -3,23 +3,12 @@
 @tailwind utilities;
 
 
-.mark{
-  background-image: url(../src/image/pexels-felixmittermeier-956999.jpg);
+
+
+.new{
+  background-image: url(../src/image/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(0px);
+  background-position: center;
   
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
