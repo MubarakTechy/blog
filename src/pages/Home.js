@@ -31,8 +31,8 @@ const Home = ({ isAuth }) => {
   };
 
   return (
-    <div className="min-h-screen bg-[#c0bfbf] p-6">
-      <h1 className="text-3xl font-bold text-center mb-6 text-black">Latest Blog Posts...</h1>
+    <div className="min-h-screen bg-[#18181b] p-6">
+      <h1 className="text-3xl font-bold text-center mb-6 text-white">Latest Blog Posts...</h1>
       
       {loading ? (
         <div className="flex justify-center py-4">

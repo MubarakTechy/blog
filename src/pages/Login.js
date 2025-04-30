@@ -17,7 +17,7 @@ const Login = ({ isAuth, setIsAuth }) => {
   };
   
   return (
-    <div className="min-h-screen bg-[#c0bfbf] flex items-center justify-center p-4">
+    <div className="min-h-screen bg-[#18181b] flex items-center justify-center p-4">
       <div className="flex flex-col sm:flex-row w-full max-w-4xl">
         {/* Image Section */}
         <div className="w-full sm:w-1/3 md:w-1/2 h-48 sm:h-auto">

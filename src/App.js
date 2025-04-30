@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Router>
-      <nav className='bg-[#f0eeee] text-[#191919] px-6 py-4 flex justify-between items-center'>
+      <nav className='bg-[#858588] text-[#191919] px-6 py-4 flex justify-between items-center'>
         {/* Logo */}
         <div className='flex items-center gap-2'>
           <img src={Max} className='w-[3vw] rounded-[50%] max-sm:w-[9vw] ' alt='Logo' />
@@ -54,13 +54,13 @@ function App() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className='absolute top-16 left-0 w-full bg-black flex flex-col items-center gap-4 py-6 font-semibold z-40'>
-            <Link to="/" className='hover:text-gray-400 text-[white] ' onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
+          <div className='absolute top-16 left-0 w-full bg-[#858588] flex flex-col items-center gap-4 py-6 font-semibold z-40'>
+            <Link to="/" className='hover:text-gray-400 text-[black] ' onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
             {!isAuth ? (
-              <Link to="/login" className='hover:text-gray-400 text-[white] ' onClick={() => setIsMobileMenuOpen(false)}>Login</Link>
+              <Link to="/login" className='hover:text-gray-400 text-[black] ' onClick={() => setIsMobileMenuOpen(false)}>Login</Link>
             ) : (
               <>
-                <Link to="/createpost" className='hover:text-gray-400 text-[white]' onClick={() => setIsMobileMenuOpen(false)}>Create Post</Link>
+                <Link to="/createpost" className='hover:text-gray-400 text-[black]' onClick={() => setIsMobileMenuOpen(false)}>Create Post</Link>
                 <button onClick={() => { setIsMobileMenuOpen(false); signUserOut(); }} className='bg-red-600 hover:bg-red-700 px-3 py-1 rounded'>
                   Logout
                 </button>
